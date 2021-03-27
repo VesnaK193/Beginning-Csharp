@@ -16,14 +16,14 @@ namespace Calculator
 
             // Display title as the C# console calculator app.
             Console.WriteLine("Console Calculator in C#\r");
-            Console.WriteLine("------------------------\n");
+            Console.WriteLine("----------------------------\n");
 
             // Ask the user to type the first number.
-            Console.WriteLine("Type a number, and then press Enter");
+            Console.WriteLine("Type a number, and then press enter");
             num1 = Convert.ToInt32(Console.ReadLine());
 
             // Ask the user to type the second number.
-            Console.WriteLine("Type another number, and then press Enter");
+            Console.WriteLine("Type another number, and then press enter");
             num2 = Convert.ToInt32(Console.ReadLine());
 
             // Ask the user to choose an option.
